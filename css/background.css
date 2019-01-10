@@ -15,7 +15,7 @@ canvas {
     width: 100%;
     height: 100%;
     background-color: #000000;
-    background-image: url("https://kylin-schroeder.github.io/pantera.jpg");
+    background-image: url("https://kylin-schroeder.github.io/pantera.jpg"), ("https://kylin-schroeder.github.io/ffdp.jpg"), ("https://kylin-schroeder.github.io/356401-blackangel.jpg"), ("https://kylin-schroeder.github.io/pantera.jpg"), ("https://kylin-schroeder.github.io/metallica1.jpg");
     background-repeat: no-repeat;
     background-size: auto;
     background-position: 50% 50%;
