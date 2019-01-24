@@ -18,7 +18,7 @@ font-family: Futura, "Helvetica Neue", Helvetica, sans-serif;
 background-image: url("scannerbackground.jpg");
 
 /* Background image is centered vertically and horizontally at all times */
-background-position: center center;
+background-position: top center;
 
 /* Background image doesn't tile */
 background-repeat: no-repeat;
