@@ -1,6 +1,5 @@
 
 <!DOCTYPE html>
-<!-- Author: Emily Black, 03/21/17 -->
 <html lang="en">
 <head>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -17,6 +16,149 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<title>Kylin Schroeder</title>
+	<script>
+
+
+var message = new Array();
+
+
+message[0] = "Kylin";
+
+
+message[1] = "Schroeder";
+
+
+message[2] = "Official";
+
+
+message[3] = "Site";
+
+
+message[4] = "Big Papa";
+
+
+message[5] = "Meme Lord";
+
+
+message[6] = "Hackerman";
+
+
+var reps = 2;
+
+
+var speed = 100; var p = message.length;
+
+
+var T = "";
+
+
+var C = 0;
+
+
+var mC = 0;
+
+
+var s = 0;
+
+
+var sT = null;
+
+
+if (reps < 1) reps = 1;
+
+
+function doTheThing() {
+
+
+T = message[mC];
+
+
+A();
+
+
+}
+
+
+function A() {
+
+
+s++;
+
+
+if (s > 8) { s = 1;}
+
+
+if (s == 1) { document.title = '|--- '+T+' ---|'; }
+
+
+if (s == 2) { document.title = '|--- '+T+' ---|'; }
+
+
+if (s == 3) { document.title = '|--- '+T+' ---|'; }
+
+
+if (s == 4) { document.title = '|--- '+T+' ---|'; }
+
+
+if (s == 5) { document.title = '|--- '+T+' ---|'; }
+
+
+if (s == 6) { document.title = '|--- '+T+' ---|'; }
+
+
+if (s == 7) { document.title = '|--- '+T+' ---|'; }
+
+
+if (s == 8) { document.title = '|--- '+T+' ---|'; }
+
+
+if (C < (8 * reps)) {
+
+
+sT = setTimeout("A()", speed);
+
+
+C++;
+
+
+}
+
+
+else {
+
+
+C = 0;
+
+
+s = 0;
+
+
+mC++;
+
+
+if(mC > p - 1) mC = 0;
+
+
+sT = null;
+
+
+doTheThing();
+
+
+}
+
+
+}
+
+
+doTheThing();
+
+
+//-->
+
+
+</script>
+
 
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/background.css" rel="stylesheet">
@@ -47,9 +189,9 @@
 
 	<script>
 		var first = "Hello,";
-		var second = "I'm <strong>Kylin Schroeder</strong>.";
+		var second = "I'm <strong>Kylin Schroeder the Meme Lord</strong>.";
 		var third = "Get to know <a href='about.html'>me</a>.";
-		var fourth = "<a href='/bruh/bruh.mp4'>National Bruh Moment Video</a> • <a href='https://github.com/Kylin-Schroeder'>GitHub</a> • <a href='https://instagram.com/zoinks.mp3'>Instagram</a> • <a href='mailto:kylin.schroeder@outlook.com'>Email</a>";
+		var fourth = "<a href='/bruh/bruh.mp4'>National Bruh Moment Video</a> • <a href='https://github.com/Kylin-Schroeder'>GitHub</a> • <a href='https://instagram.com/yeehawkylin.zip'>Instagram</a> • <a href='mailto:kylin.schroeder@outlook.com'>Email</a>";
 		$('.type-it').typeIt({
 			strings: [first, second, third, fourth]
 		});
